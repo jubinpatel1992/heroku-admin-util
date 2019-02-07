@@ -10,7 +10,6 @@ A Heroku plugin extending the Heroku CLI powered by OCLIF to get data related to
 
 <!-- toc -->
 * [Usage](#usage)
-* [Commands](#commands)
 <!-- tocstop -->
 # Usage
 <!-- usage -->
