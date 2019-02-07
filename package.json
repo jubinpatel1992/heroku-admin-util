@@ -1,7 +1,7 @@
 {
   "name": "heroku-admin-util",
   "description": "A Heroku plugin extending the Heroku CLI powered by OCLIF to get data related to access, addons and apps which can we used by Heroku Admins of large teams/enterprsies to manage and roster their Heroku applications",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "author": "Jubin Patel",
   "bugs": "https://github.com/https://github.com/jubinpatel1992/heroku-admin-util-plugin/heroku-admin-util/issues",
   "dependencies": {
@@ -29,7 +29,12 @@
   ],
   "homepage": "https://github.com/https://github.com/jubinpatel1992/heroku-admin-util-plugin/heroku-admin-util",
   "keywords": [
-    "oclif-plugin"
+    "oclif-plugin",
+	"oclif",
+	"heroku",
+	"heroku-plugin",
+	"heroku-cli",
+	"heroku-cli-plugin"
   ],
   "license": "MIT",
   "oclif": {
@@ -45,6 +50,6 @@
     "posttest": "eslint .",
     "prepack": "oclif-dev manifest",
     "test": "echo NO TESTS",
-    "version": "oclif-dev readme && git add README.md"
+    "version": "README.md"
   }
 }
