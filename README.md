@@ -11,8 +11,22 @@ A Heroku plugin extending the Heroku CLI powered by OCLIF to get data related to
 <!-- toc -->
 * [Usage](#usage)
 <!-- tocstop -->
+* [Usage](#usage)
+<!-- tocstop -->
 # Usage
 <!-- usage -->
+```sh-session
+$ npm install -g heroku-admin-util
+$ oclif-example COMMAND
+running command...
+$ oclif-example (-v|--version|version)
+heroku-admin-util/1.0.1 win32-x64 node-v10.15.0
+$ oclif-example --help [COMMAND]
+USAGE
+  $ oclif-example COMMAND
+...
+```
+<!-- usagestop -->
 In order to utitlize this Heroku plugin, download and install Heroku CLI from [here](https://devcenter.heroku.com/articles/heroku-cli#download-and-install). 
 
 If you already have Heroku CLI setup in you machine follow below steps to configure the plugin in your machine using Heroku CLI:
