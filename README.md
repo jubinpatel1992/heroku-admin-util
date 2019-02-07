@@ -17,11 +17,11 @@ A Heroku plugin extending the Heroku CLI powered by OCLIF to get data related to
 <!-- usage -->
 ```sh-session
 $ npm install -g heroku-admin-util
-$ oclif-example COMMAND
+$ heroku-admin-util COMMAND
 running command...
-$ oclif-example (-v|--version|version)
-heroku-admin-util/1.0.1 win32-x64 node-v10.15.0
-$ oclif-example --help [COMMAND]
+$ heroku-admin-util (-v|--version|version)
+heroku-admin-util/1.0.2 win32-x64 node-v10.15.0
+$ heroku-admin-util --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
 ...
