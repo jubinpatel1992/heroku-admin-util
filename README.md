@@ -1,7 +1,7 @@
 heroku-admin-util-plugin
 ========================
 
-A Heroku plugin extending the Heroku CLI powered by OCLIF to list details realted to access, addons and apps which can we used by Heroku Admins of large enterprsies to manage and rsoter their applications
+A Heroku plugin extending the Heroku CLI powered by OCLIF to get data related to access, addons and apps which can we used by Heroku Admins of large teams/enterprsies to manage and roster their Heroku applications.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/heroku-admin-util-plugin.svg)](https://npmjs.org/package/heroku-admin-util-plugin)
