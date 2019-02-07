@@ -13,7 +13,7 @@ class GetHerokuAppData extends Command {
     var workbook = new excel.Workbook()
 
     // Add Worksheets to the workbook
-    var worksheet = workbook.addWorksheet('Apps Data')
+    var worksheet = workbook.addWorksheet('App Data')
 
     // Create a reusable style
     var headingstyle = workbook.createStyle({
