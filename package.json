@@ -1,0 +1,47 @@
+{
+  "name": "heroku-admin-util-plugin",
+  "description": "A Heroku plugin extending the Heroku CLI powered by OCLIF to list details realted to access, addons and apps which can we used by Heroku Admins of large enterprsies to manage and rsoter their applications",
+  "version": "0.0.0",
+  "author": "Jubin Patel",
+  "bugs": "https://github.com/https://github.com/jubinpatel1992/heroku-admin-util-plugin/heroku-admin-util-plugin/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.8",
+    "@oclif/config": "^1.12.4"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.21.0",
+    "@oclif/plugin-help": "^2.1.6",
+    "eslint": "^5.13.0",
+    "eslint-config-oclif": "^3.1.0",
+    "globby": "^8.0.2",
+    "rimraf": "^2.6.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/https://github.com/jubinpatel1992/heroku-admin-util-plugin/heroku-admin-util-plugin",
+  "keywords": [
+    "oclif-plugin"
+  ],
+  "license": "MIT",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "oclif-example",
+    "devPlugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "https://github.com/jubinpatel1992/heroku-admin-util-plugin/heroku-admin-util-plugin",
+  "scripts": {
+    "postpack": "rimraf oclif.manifest.json",
+    "posttest": "eslint .",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
