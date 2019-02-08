@@ -27,14 +27,14 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/jubinpatel1992/heroku-admin-util/heroku-admin-util",
+  "homepage": "https://github.com/jubinpatel1992/heroku-admin-util",
   "keywords": [
     "oclif-plugin",
-	"oclif",
-	"heroku",
-	"heroku-plugin",
-	"heroku-cli",
-	"heroku-cli-plugin"
+    "oclif",
+    "heroku",
+    "heroku-plugin",
+    "heroku-cli",
+    "heroku-cli-plugin"
   ],
   "license": "MIT",
   "oclif": {
@@ -44,7 +44,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "https://github.com/jubinpatel1992/heroku-admin-util/heroku-admin-util",
+  "repository": "https://github.com/jubinpatel1992/heroku-admin-util",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json",
     "posttest": "eslint .",

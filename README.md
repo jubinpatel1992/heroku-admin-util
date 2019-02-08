@@ -21,8 +21,10 @@ $ heroku getappdata
 
 Above heroku command will generate an Excel with name "HerokuAppData.xlsx" which will provide the following details of all the Heroku apps to which the user has access to:
 
+
 |   Heroku App Name   |   Heroku App Url   |   In Maintenance Mode    |   Build Pack Used   |   Hostname   |  DNS Target  |   Heroku ACM Status |
-|---------------------|--------------------|--------------------------|---------------------|--------------|--------------|--------------------|
+|---------------------|--------------------|--------------------------|---------------------|--------------|--------------|---------------------|
+
 
 ```
 $ heroku getaccessdata
@@ -30,14 +32,17 @@ $ heroku getaccessdata
 
 Above heroku command will generate an Excel with name "Access Roster.xlsx" which will provide the following details of all the Heroku apps to which the user has access to:
 
+
 |   Heroku App Name   |   Email   |   Role    |   Permissions   |
 |---------------------|-----------|-----------|-----------------|
+
 
 ```
 $ heroku getaddondata
 ```
 
 Above heroku command will generate an Excel with name "HerokuAddonDetails.xlsx" which will provide the following details of all the Heroku apps to which the user has access to:
+
 
 |   Heroku App Name   |   Addon Service Name   |   Addon Plan Name    |   Billing Entity   |    Costing (in cents)   |    Plan Duration |  
 |---------------------|------------------------|----------------------|--------------------|-------------------------|------------------| 
